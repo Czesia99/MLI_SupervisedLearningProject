@@ -11,7 +11,9 @@ def main():
     cols = 6
 
     means = np.linspace(1, 10, cols)
+    print("means == ", means)
     deviations = np.linspace(0.5, 2.5, cols)
+    print("deviations == ", deviations)
     dataset = pd.DataFrame()
 
     for i in range(cols):
